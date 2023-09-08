@@ -15,6 +15,4 @@ function capitalize(str: string): string {
   return str.replace(cap, cap.toUpperCase());
 }
 
-// console.log(capitalize("1test"));
-
 module.exports = capitalize;
