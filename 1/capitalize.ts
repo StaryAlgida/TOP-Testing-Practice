@@ -8,7 +8,6 @@ function capitalize(str: string): string {
       index++;
       cap = str.charAt(index);
     } else {
-      console.log(typeof cap);
       break;
     }
   }
